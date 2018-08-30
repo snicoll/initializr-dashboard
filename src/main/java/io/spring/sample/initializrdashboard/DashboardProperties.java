@@ -14,9 +14,9 @@ public class DashboardProperties {
 	public static class ReverseLookup {
 
 		/**
-		 * Read timeout for the IP resolver API in ms
+		 * Read timeout for the IP resolver API in seconds.
 		 */
-		private int timeout = 4_000;
+		private int timeout = 4;
 
 		public int getTimeout() {
 			return timeout;
@@ -26,4 +26,5 @@ public class DashboardProperties {
 			this.timeout = timeout;
 		}
 	}
+
 }

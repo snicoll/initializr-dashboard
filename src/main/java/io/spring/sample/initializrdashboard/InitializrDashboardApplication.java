@@ -11,4 +11,5 @@ public class InitializrDashboardApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(InitializrDashboardApplication.class, args);
 	}
+
 }

@@ -14,7 +14,7 @@ public class ReverseLookupClient {
 
 	public ReverseLookupClient(DashboardProperties properties, RestTemplateBuilder builder) {
 		this.client = builder
-				.setReadTimeout(properties.getReverseLookup().getTimeout()).build();
+				.setReadTimeout(properties.getReverseLookup().getTimeout() * 1000).build();
 	}
 
 	public ReverseLookupDescriptor freeReverseLookup(String ip) {

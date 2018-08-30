@@ -47,9 +47,6 @@ public class Event {
 
 		RELEASE;
 
-		public int transformValue(int value) {
-			return value;
-		}
-
 	}
+
 }

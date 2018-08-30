@@ -40,4 +40,5 @@ public class DashboardController {
 		model.addAttribute("stats", statsService.fetchStats(fromDate.toString(), toDate.toString()));
 		return "index";
 	}
+
 }
